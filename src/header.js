@@ -1,8 +1,8 @@
 // src/header.js
-import initHeader from "../bin/header/v1/commands/header/template/v2/initHeader.js";
+import initVerticalComp from "../bin/header/v1/commands/header/template/v3/index.js";
 
 (async () => {
-    window.KSHeaderVersion = "v1.2";
+    window.KSVerticalCompVersion = "v1.3";
 
-    window.KSHeader = initHeader;
+    window.KSVerticalComp = initVerticalComp;
 })();

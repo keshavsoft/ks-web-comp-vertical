@@ -4,9 +4,9 @@ export default {
     build: {
         lib: {
             entry: "src/header.js",
-            name: "KSHeader",
+            name: "KSVerticalComp",
             formats: ["umd"],
-            fileName: () => `${templateVersion}/ksheader.js`
+            fileName: () => `${templateVersion}/KSVerticalComp.js`
         },
         outDir: "Public",
         emptyOutDir: false
