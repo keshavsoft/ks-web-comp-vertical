@@ -1,4 +1,8 @@
-import "./button.js";
-import "./dataListInput.js";
-import "./dateInput.js";
-import "./input.js";
+import "./WebComponents/button/index.js";
+import "./WebComponents/dataListInput/index.js";
+import "./WebComponents/dateInput/index.js";
+import "./WebComponents/input/index.js";
+
+console.log("KSHeader template v3 loaded to DOM");
+
+export default {};
